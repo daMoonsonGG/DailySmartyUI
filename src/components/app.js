@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Logo from "./logo";
+import Searchbar from "./searchbar";
+import RecentPosts from "./recentposts";
 
 export default class App extends Component {
   render() {
@@ -9,14 +11,10 @@ export default class App extends Component {
           <Logo />
         </div>
         <div className="search-bar">
-          <input placeholder="DailySmarty" />
+          <Searchbar />
         </div>
         <div className="recent-posts">
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ul>
+          <RecentPosts />
         </div>
       </div>
     );
