@@ -17,7 +17,6 @@ class RecentPosts extends Component {
         return <Post {...post} key={index} />;
       }
     });
-
     return posts;
   };
 
