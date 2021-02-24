@@ -15,7 +15,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="app-wrapper">
+      <div className="home">
         <Logo />
         <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
         <RecentPosts />
