@@ -78,6 +78,13 @@ ul {
   font-size: 40px;
 }
 
+@media screen and (max-width: 600px) {
+  .search-bar__home input {
+    font-size: 23px;
+    height: 59px;
+  }
+}
+
 .search-bar__results {
   align-content: center;
   justify-items: center;
@@ -107,9 +114,13 @@ ul {
 
 .recent-posts .recent-posts__wrapper .recent-posts__posts {
   display: grid;
-  justify-content: space-evenly;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 42px;
+}
+
+@media screen and (min-width: 700px) {
+  .recent-posts .recent-posts__wrapper .recent-posts__posts {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .recent-post .recent-post__title a {
@@ -188,4 +199,4 @@ ul {
   line-height: 17px;
 }
 
-/*# sourceMappingURL=app-51f24903ec54abccd194.map*/
+/*# sourceMappingURL=app-7a6ad202f28ea2d37d20.map*/
